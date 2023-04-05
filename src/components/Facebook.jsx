@@ -15,7 +15,7 @@ function Facebook() {
         <div>
             <div className='d-flex flex-row justify-content-center'>
                 {nonRepitedCountries.map((country) => (
-                    <button value={country} onClick={handleOnClick} className={`border p-1 m-1 ${country === countryClicked ? 'text-bg-info' : ''}`}>{country}</button>
+                    <button key={country} value={country} onClick={handleOnClick} className={`border p-1 m-1 ${country === countryClicked ? 'text-bg-info' : ''}`}>{country}</button>
                     ))}
             </div>
             <div>
