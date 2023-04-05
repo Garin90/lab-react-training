@@ -14,7 +14,7 @@ function NumbersTable({ limit }) {
         const color = (number % 2 === 0 ? 'red' : 'white')
 
         return (
-            <div className="border border-1 border-dark" style={{backgroundColor:color}}  >
+            <div className="border border-1 border-dark" style={{backgroundColor:color}}>
                 <div className="card-body">
                     <p className="card-text text-center d-flex justify-content-center mt-4">{number}</p>
                 </div>
